@@ -1,5 +1,5 @@
 # user-directory
-  1. create a member directory that is filterable for research field, sub skill and user name. The directory itself will show the name,research_field,subskill, email (with no hyperlink to anything).
+  1. create a member directory that is filterable for research field, sub skill and user name. The directory itself will show the name,research field,sub skill, email (with no hyperlink to anything).
   
   2.  We will use bootstrap to put the filter on top - we will then use the selectize.js.
 
