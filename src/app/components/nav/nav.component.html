@@ -1,0 +1,13 @@
+<nav class="masthead clearfix">
+    <div class="inner">
+        <h3 [routerLink]="['/']" class="masthead-brand"><i class="fa fa-laptop"></i><i>User</i> Directory</h3>
+        <nav class="nav nav-masthead">
+            <a [routerLinkActiveOptions]="{exact: true}" class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/']">Home</a>
+            <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/users']">Users</a>
+            <a class="nav-link" [routerLinkActive]="['active']" [routerLink]="['/connections']">Connections</a>
+            <!-- <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Contact</a> -->
+        </nav>
+    </div>
+</nav>

@@ -1,0 +1,13 @@
+<div class="inner cover">
+    <h1 class="cover-heading">Users</h1>
+    <div class="user-list">
+        <div [routerLink]="['/user', user.id]" class="user-item" *ngFor="let user of users| async">
+            <div class="user-id">{{user.id}}</div>
+            <div class="user-name">{{user.name}}</div>
+            <div class="user-email">{{user.email}}</div>
+            <div class="user-skill">
+                <span *ngFor="let skill of user.skill; let j = index">{{skill}}</span>
+            </div>
+        </div>
+    </div>
+</div>
